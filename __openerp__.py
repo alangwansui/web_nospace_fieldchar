@@ -20,24 +20,20 @@
 ##############################################################################
 
 {
-    'name': 'NoSpace FiedChar',
+    'name': 'NoSpace FieldChar',
     'version': '1.0',
     'author': 'Jon Chow<alangwansui@mail.com>',
-    'category': 'Hidden',
+    'category': 'web',
     'description': """
         Some very critical char.filds auto deleted all space word for user input.
-
-        Example:
+        Use Example:
             <field name='code' class='field_char_not_space'>
-    
         When user input ' aa  bb cc ' for 'code', web client auto transform to 'aabbcc'.
-            
     """,
     'website': '',
-    'images': [],
+    'images': ['images/icon.png'],
     'depends': ['web'],
     'data': ['view/nospace_fieldchar.xml'],
-    # 'qweb': ['static/src/js/nospace_fieldchar.xml'],
     'js': ['static/src/js/*.js'],
     'css': ['static/src/js/*.css'],
     'demo': [
@@ -45,8 +41,6 @@
     'test': [],
     'installable': True,
     'auto_install': False,
-    'price': 5,
-    'currency': 'EUR',
 }
 
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
