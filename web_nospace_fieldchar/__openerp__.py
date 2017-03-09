@@ -23,7 +23,7 @@
     'name': 'NoSpace FiedChar',
     'version': '1.0',
     'author': 'Jon Chow<alangwansui@mail.com>',
-    'category': 'Hidden',
+    'category': 'web',
     'description': """
         Some very critical char.filds auto deleted all space word for user input.
 
