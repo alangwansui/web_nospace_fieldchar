@@ -23,7 +23,7 @@
     'name': 'NoSpace FiedChar',
     'version': '1.0',
     'author': 'Jon Chow<alangwansui@mail.com>',
-    'category': 'web',
+    'category': '',
     'description': """
         Some very critical char.filds auto deleted all space word for user input.
 
@@ -45,7 +45,7 @@
     'test': [],
     'installable': True,
     'auto_install': False,
-    'price': 3,
+    'price': 1,
     'currency':'EUR'
 }
 
